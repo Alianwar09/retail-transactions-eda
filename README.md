@@ -1,91 +1,149 @@
-# Retail Transactions EDA
+# 🛒 Retail Transactions EDA
 
-Exploratory Data Analysis mini-project on a retail transactions dataset using Python, Pandas, Matplotlib, and Seaborn.
+Exploratory Data Analysis (EDA) of a retail transactions dataset using Python, Pandas, Matplotlib, and Seaborn — submitted as a graded mini-project for **IITG DSBA Week 17**.
 
-This project analyzes customer behavior, payment preferences, store performance, seasonal revenue trends, promotions, discounts, and product-level patterns from retail transaction data.
+This project uncovers patterns in customer behavior, payment preferences, store performance, seasonal revenue trends, promotions, discounts, and product-level insights from real-world retail transaction data.
 
-## Project Contents
+---
 
-- `retail_transactions_eda.ipynb` - main Jupyter Notebook with the full EDA workflow
-- `requirements.txt` - Python libraries needed to run the notebook
-- `IITG_DSBA_Week 17_Graded Mini Project.pdf` - assignment reference
-- `Task to be performed-Week 17.docx` - task document
-- `Week 17 Graded Mini Project (Kanak_Baghel).pdf` - submitted project report
+## 📁 Project Structure
 
-## Dataset
+```
+retail-transactions-eda/
+│
+├── retail_transactions_eda.ipynb        # Main Jupyter Notebook (full EDA workflow)
+├── requirements.txt                     # Python dependencies
+├── IITG_DSBA_Week 17_Graded Mini Project.pdf   # Assignment reference
+├── Task to be performed-Week 17.docx    # Task description
+└── README.md                            # Project documentation
+```
 
-The dataset is not included in this repository.
+---
 
-Download it from Kaggle:
+## 📊 Dataset
 
-[Retail Transactions Dataset](https://www.kaggle.com/datasets/kanakbaghel/retail-transactions-dateset/data)
+The dataset is **not included** in this repository due to size.
 
-After downloading, place the CSV file in the project folder with this exact name:
+👉 Download it from Kaggle: [Retail Transactions Dataset](https://www.kaggle.com/datasets/kanakbaghel/retail-transactions-dateset/data)
 
-```text
+After downloading, place the CSV file in the root project folder with this exact name:
+
+```
 Retail_Transactions_Dataset.csv
 ```
 
-The notebook expects the file to be available in the same folder as `retail_transactions_eda.ipynb`.
+The notebook expects this file in the same directory as `retail_transactions_eda.ipynb`.
 
-## Analysis Covered
+---
 
-- Data loading and preparation
-- Date parsing and feature extraction
-- Transaction and customer exploration
-- Top-selling product analysis
-- City-wise transaction analysis
-- Customer category spending behavior
-- Payment method preferences
-- Store type analysis
-- Promotion and discount impact
-- Seasonal revenue trends
-- Visual dashboard charts
+## 🔍 Analysis Covered
 
-## Tools Used
+| Area | Description |
+|------|-------------|
+| **Data Preparation** | Loading, cleaning, date parsing, feature extraction |
+| **Customer Exploration** | Transaction counts, unique customers, spending behavior |
+| **Product Analysis** | Top-selling products by revenue and quantity |
+| **City-wise Analysis** | Transaction volume and revenue across cities |
+| **Payment Methods** | Distribution and preference across customer segments |
+| **Store Type Analysis** | Performance comparison across store types |
+| **Promotions & Discounts** | Impact of promotions on revenue and transaction volume |
+| **Seasonal Trends** | Monthly and seasonal revenue patterns |
+| **Visual Dashboard** | Summary charts combining key insights |
 
-- Python
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+---
 
-## How to Run
+## 💡 Key Findings
 
-1. Clone this repository.
+- Seasonal peaks are clearly visible in revenue trends, with certain months consistently outperforming others
+- Promotional transactions show a measurable uplift in average order value
+- Payment method preferences vary significantly across customer categories
+- A small subset of products drives a disproportionately large share of total revenue
 
+---
+
+## 🛠️ Tools & Technologies
+
+| Tool | Purpose |
+|------|---------|
+| Python 3.x | Core programming language |
+| Jupyter Notebook | Interactive analysis environment |
+| Pandas | Data manipulation and aggregation |
+| NumPy | Numerical computations |
+| Matplotlib | Base plotting library |
+| Seaborn | Statistical data visualization |
+
+---
+
+## ▶️ How to Run
+
+**1. Clone the repository**
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Alianwar09/retail-transactions-eda.git
 cd retail-transactions-eda
 ```
 
-2. Install the required libraries.
-
+**2. Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Download the dataset from Kaggle and place `Retail_Transactions_Dataset.csv` in the project folder.
+**3. Download the dataset**
 
-4. Open the notebook.
+Download `Retail_Transactions_Dataset.csv` from [Kaggle](https://www.kaggle.com/datasets/kanakbaghel/retail-transactions-dateset/data) and place it in the project root folder.
 
+**4. Launch the notebook**
 ```bash
 jupyter notebook retail_transactions_eda.ipynb
 ```
 
-5. Run the cells from top to bottom.
+**5. Run all cells** from top to bottom (Kernel → Restart & Run All).
 
-## Output
+---
 
-The notebook generates exploratory summaries and visualizations, including:
+## 📈 Sample Outputs
 
-- Transactions per city
-- Payment method distribution
-- Monthly revenue trends
-- Average spending per season
-- Revenue by season and customer category
+The notebook generates the following visualizations:
 
-## Project Type
+- 📍 Transactions per city (bar chart)
+- 💳 Payment method distribution (pie/bar chart)
+- 📅 Monthly revenue trends (line chart)
+- 🌦️ Average spending per season (grouped bar)
+- 🏷️ Revenue impact of promotions and discounts
+- 👥 Revenue by customer category and season
 
-This is an academic EDA mini-project, not a production application.
+---
+
+## 📋 Requirements
+
+```
+pandas
+numpy
+matplotlib
+seaborn
+jupyter
+```
+
+Install all at once:
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 👤 Author
+
+**Ali Anwar**
+BCA Student — School of Management Sciences, Lucknow
+IITG DSBA Program | Roll No: 2310924050009
+
+---
+
+## 📌 Project Type
+
+This is an **academic EDA mini-project** submitted as part of the IIT Guwahati Data Science & Business Analytics (DSBA) program. It is not intended for production use.
+
+---
+
+## 📄 License
+
+This project is open for academic reference. Feel free to fork and build upon it.
