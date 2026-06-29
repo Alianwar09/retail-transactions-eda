@@ -138,12 +138,6 @@ IITG DSBA Program | Roll No: 2310924050009
 
 ---
 
-## 📌 Project Type
-
-This is an **academic EDA mini-project** submitted as part of the IIT Guwahati Data Science & Business Analytics (DSBA) program. It is not intended for production use.
-
----
-
 ## 📄 License
 
 This project is open for academic reference. Feel free to fork and build upon it.
